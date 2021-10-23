@@ -1,0 +1,35 @@
+body {
+  background: green;
+}
+
+.grandparent {
+  background-color: green;
+  height: 120px;
+  width: 120px;
+  position: relative;
+}
+
+.grandparent .parent {
+  background: orangered;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grandparent .parent .child {
+  background: #83d419;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  color: purple;
+}
+/*# sourceMappingURL=style.css.map */
